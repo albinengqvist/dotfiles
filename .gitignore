@@ -1,0 +1,6 @@
+# Säkert att ignorera om du inte vill ha temporärt skräp
+*.swp
+*.swo
+*.bak
+*.tmp
+
