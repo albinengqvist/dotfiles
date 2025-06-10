@@ -1,0 +1,27 @@
+[user]
+  name = Albin Engqvist
+  email = albinengqvist@gmail.com  # byt till din GitHub-email
+
+[core]
+  editor = helix
+  autocrlf = input
+
+[color]
+  ui = auto
+
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  lg = log --oneline --graph --all --decorate
+
+[pull]
+  rebase = true
+
+[push]
+  default = current
+
+[init]
+  defaultBranch = main
+
