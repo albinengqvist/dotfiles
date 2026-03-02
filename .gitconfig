@@ -3,7 +3,7 @@
   email = albinengqvist@gmail.com  # byt till din GitHub-email
 
 [core]
-  editor = helix
+	editor = hx
   autocrlf = input
 
 [color]
@@ -25,3 +25,6 @@
 [init]
   defaultBranch = main
 
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
